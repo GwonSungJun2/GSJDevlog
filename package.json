@@ -31,6 +31,10 @@
   "homepage": "https://github.com/GwonSungJun2/ReactTypeScriptExpressTemplete#readme",
   "devDependencies": {
     "prettier": "^3.7.4"
-  }
-
+  },
+  
+  "packageManager": "pnpm@9.0.0"
+  
 }
+
+
