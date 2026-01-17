@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "reacttypescriptexpresstemplete",
+  "version": "1.0.0",
+  "description": "React, TypeScript Express, MySQL, pnpm, format 셋팅 Templete repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "install:all": "pnpm i && concurrently \"pnpm i --prefix server\" \"pnpm i --prefix client\"",
+    "dev": "pnpm -r --parallel dev",
+    "dev:server": "pnpm --filter server dev",
+    "dev:client": "pnpm --filter client dev",
+    "build": "pnpm -r build",
+    "build:server": "pnpm --filter server build",
+    "build:client": "pnpm --filter client build",
+
+    "start": "pnpm --filter server start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GwonSungJun2/ReactTypeScriptExpressTemplete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GwonSungJun2/ReactTypeScriptExpressTemplete/issues"
+  },
+  "homepage": "https://github.com/GwonSungJun2/ReactTypeScriptExpressTemplete#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
+
+}
