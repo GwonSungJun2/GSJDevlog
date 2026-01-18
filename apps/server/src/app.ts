@@ -8,4 +8,8 @@ app.get('/api', (_req, res) => {
   res.json({ status: 'ok' });
 });
 
+app.post('/login', (req, res) => {
+  const { email, password } = req.body
+  res.json({email, password})
+})
 export default app;
