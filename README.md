@@ -28,3 +28,6 @@ https://brunch.co.kr/@jennyjang93/23 : 베트남 개발자 수요
 https://medium.com/@Jager-yoo/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94-%EC%98%81%EC%96%B4-%EA%B3%B5%EB%B6%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%9A%94-b477653847e7 : 개발자의 영어 공부
 https://bjpublic.tistory.com/261254 : 책 추천
 https://bjpublic.tistory.com/466 : 영화 추천 관련
+
+# 해야할 일
+ㅈㄴ 코드 치기
