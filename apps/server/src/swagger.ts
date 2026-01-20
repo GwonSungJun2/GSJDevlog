@@ -4,19 +4,15 @@ export const swaggerSpec = swaggerJSDoc({
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'My Service API',
+      title: 'Express API',
       version: '1.0.0',
+      description: 'Express + Swagger API 문서',
     },
-    components: {
-      securitySchemes: {
-        bearerAuth: {
-          type: 'http',
-          scheme: 'bearer',
-          bearerFormat: 'JWT',
-        },
+    servers: [
+      {
+        url: 'http://localhost:3000',
       },
-    },
-    security: [{ bearerAuth: [] }],
+    ],
   },
-  apis: ['./routes/**/*.ts'],
+  apis: ['src/**/*.ts'],
 });
